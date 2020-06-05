@@ -10,7 +10,7 @@ USER root
 
 RUN apt-get update -y \
     && apt-get install awscli -y \
-    && unzip /opt/terraform_0.12.21_linux_amd64.zip \
+    && unzip /opt/terraform_0.12.26_linux_amd64.zip \
     && mv /opt/terraform /usr/bin/
 
 USER jenkins
